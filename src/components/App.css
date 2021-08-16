@@ -1,0 +1,100 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.notes {
+  float: left;
+  width: 30%;
+}
+
+.notesContent {
+  float: right;
+  width: 40%;
+}
+
+.notesBody {
+  width: 100%;
+}
+
+.notesListTopDiv {
+  width: 100%;
+  height: 70px;
+  margin-top: 50px;
+}
+
+.notesListDivLeft {
+  float: left;
+  width: 70%;
+  margin-top: 30px;
+}
+
+.notesListDivRight {
+  float: right;
+  width: 30%;
+}
+
+.notesSearchInput {
+  width: 500px;
+  height: 30px;
+}
+
+.notesContentTopDiv {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.notesContentLeftDiv {
+  float: left;
+  width: 70%;
+}
+
+.notesContentDisplay {
+  float: left;
+  width: 48%;
+}
+
+.notesTextArea {
+  width: 300px;
+  height: 100px;
+}
+
+.notesContentDiv {
+  width: 70%;
+}
+
+.notesContentTitle {
+  float: left;
+  width: 70%;
+  margin-top: 30px;
+}
